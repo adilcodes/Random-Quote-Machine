@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    /* background-color: #2C3E50; */
+    background: linear-gradient(90deg, hsla(202, 71%, 27%, 1) 0%, hsla(176, 45%, 66%, 1) 100%);
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    margin: 15px 0 40px;
+    color: #08203e;
+}
+#quote-box{
+    width: 450px;
+    padding: 40px 50px;
+    flex-direction: column;
+    background-color: #fff;
+    border: 0;
+    border-radius: 3px;
+}
+#quote-sign{
+    font-size: 2rem;
+    margin-bottom: 7px;
+    color: #2C3E50;
+}
+#text{
+    font-size: 20px;
+    text-align: center;
+    line-height: 31px;
+    margin-bottom: 15px;
+    color: #2C3E50;
+}
+#author{
+    text-transform: capitalize;
+    color: #2C3E50;
+}
+#btns{
+    width: 100%;
+    margin-top: 37px;
+    justify-content: space-between !important;
+}
+#tweet-quote{
+    display: block;
+    height: 30px;
+    width: 40px;
+    color: #fff;
+    background-color: #2C3E50;
+    font-size: 1.2em;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 0px;
+    padding-top: 8px;
+}
+#new-quote{
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #2C3E50;
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* Hover Effects */
+#new-quote:hover{
+    opacity: 0.9;
+}
+#tweet-quote:hover{
+    opacity: 0.9;
+}
